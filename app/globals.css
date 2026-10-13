@@ -1169,6 +1169,7 @@ body {
 .publication-actions a,
 .software-actions a,
 .cv-link {
+  margin: 0.3rem;
   color: #245b88;
 }
 
@@ -1273,7 +1274,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  margin-top: 1.35rem;
+  margin-left: 0.75rem;
   padding-bottom: 0.3rem;
   border-bottom: 1px solid #a8c4dc;
   font-size: 0.84rem;
@@ -2648,12 +2649,9 @@ body {
 
   .site-header .wordmark {
     flex: 0 0 auto;
-    gap: 0;
+    gap: 0.35rem;
   }
 
-  .site-header .wordmark > span:last-child {
-    display: none;
-  }
 
   .site-header .site-nav {
     width: auto;

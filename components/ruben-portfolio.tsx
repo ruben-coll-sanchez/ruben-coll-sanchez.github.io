@@ -51,9 +51,9 @@ const publications: Publication[] = [
 function SiteHeader() {
   return (
     <header className="site-header">
-      <a className="wordmark" href="#top" aria-label="Rubén Coll Sánchez, home">
+      <a className="wordmark" href="#top" aria-label="Home">
         <span className="wordmark-mark" aria-hidden="true">R</span>
-        <span>Rubén Coll Sánchez</span>
+        <span>Home</span>
       </a>
       <nav className="site-nav" aria-label="Main navigation">
         <a href="#about">About</a>
@@ -66,7 +66,7 @@ function SiteHeader() {
 
 const mail_address = "rubencollsanchez@gmail.com"
 const phone_number = "+33785500387" 
-const linkedin_handle = "rubén-coll-sánchez-93aa8a223/"
+const linkedin_handle = "ruben-coll-sanchez-93aa8a223/"
 const github_handle = "ruben-coll-sanchez"
 const orcid_id = "0009-0003-4573-7292"
 
@@ -156,6 +156,7 @@ function AboutSection() {
 	    I aim to offer unified, simplified views of complex computer systems, that can be reliably used to make strategic decisions. My approach has been applied effectively on distributed ML training workloads.
 	  </p>
         </div>
+	<span>  </span>
         <a className="cv-link" href="/docs/CV_RCS.pdf" target="_blank" rel="noreferrer">
           View CV <span>(PDF)</span><span aria-hidden="true">↗</span>
         </a>
@@ -286,9 +287,6 @@ function SoftwareSection() {
 function SiteFooter() {
   return (
     <footer className="site-footer">
-      <div className="footer-identity">
-        <a className="footer-name" href="#top"></a>
-      </div>
       <div className="footer-actions">
         <nav className="footer-contact-links" aria-label="Contact">
           <a href={`mailto:${mail_address}`}> {mail_address}</a>
